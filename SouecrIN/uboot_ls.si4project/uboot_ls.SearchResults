@@ -1,0 +1,54 @@
+---- mmc_init Matches (53 in 21 files) ----
+find_first_mmc_device in boot-mode.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\arch\arm\mach-uniphier\boot-mode) line 89 : 		if (!mmc_init(mmc) && IS_MMC(mmc))
+last_stage_init in ucp1020.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\Arcturus\ucp1020) line 221 : 		if (!mmc_init(mmc)) {
+bcm28155_ap.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\broadcom\bcm28155_ap) line 80 :  * mmc_init - Initializes mmc
+board_mmc_init in edb93xx.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\cirrus\edb93xx) line 376 : 	mmc_init(mmc);
+compute_second_stage_hash in controlcenterd-id.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\gdsys\p1022) line 453 : 	mmc_init(mmc);
+load_sd_key_program in controlcenterd-id.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\gdsys\p1022) line 827 : 	mmc_init(mmc);
+get_dfu_alt_boot in exynos5-dt.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\samsung\common) line 365 : 	if (mmc_init(mmc))
+display_board_info in misc.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\samsung\common) line 227 : 			mmc_init(mmc);
+get_dfu_alt_boot in odroid.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\samsung\odroid) line 84 : 	if (mmc_init(mmc))
+init_mmc_device in mmc.c (cmd) line 155 : 	if (mmc_init(mmc))
+do_mmc_setdsr in mmc.c (cmd) line 781 : 		if (mmc_init(mmc))
+do_mmc_spi in mmc_spi.c (cmd) line 77 : 	mmc_init(mmc);
+init_mmc_for_env in env_mmc.c (common) line 105 : 	if (mmc_init(mmc))
+spl_mmc_load_image in spl_mmc.c (common\spl) line 238 : 	err = mmc_init(mmc);
+dfu_fill_entity_mmc in dfu_mmc.c (drivers\dfu) line 331 : 	if (mmc_init(mmc)) {
+mmc_spl_load_image in fsl_esdhc_spl.c (drivers\mmc) line 33 : 	if (mmc_init(mmc)) {
+mmc_get_dev in mmc.c (drivers\mmc) line 1653 : 	if (!mmc || mmc_init(mmc))
+mmc.c (drivers\mmc) line 1746 : int mmc_init(struct mmc *mmc)
+sunxi_mmc_has_egon_boot_signature in sunxi_mmc.c (drivers\mmc) line 456 : 	if (mmc_getcd(mmc) && mmc_init(mmc) == 0 &&
+fm_init_common in fm.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\net\fm) line 397 : 		mmc_init(mmc);
+cs4340_upload_firmware in cortina.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\net\phy) line 176 : 		mmc_init(mmc);
+process_flash_mmc in f_fastboot.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\usb\gadget) line 1063 : 				if (mmc && mmc_init(mmc))
+_fastboot_parts_load_from_ptable in f_fastboot.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\usb\gadget) line 1345 : 		if (mmc && mmc_init(mmc))
+do_boota in f_fastboot.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\usb\gadget) line 1771 : 		if (mmc_init(mmc)) {
+mmc.h (include) line 420 : int mmc_init(struct mmc *mmc);
+mmc.h (include) line 454 :  * mmc_init, which would block on polling OCR status and complete the device
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 1 : ---- mmc_init Matches (#count#) ----
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 2 : find_first_mmc_device in boot-mode.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\arch\arm\mach-uniphier\boot-mode) line 89 : 		if (!mmc_init(mmc) && IS_MMC(mmc))
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 3 : last_stage_init in ucp1020.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\Arcturus\ucp1020) line 221 : 		if (!mmc_init(mmc)) {
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 4 : bcm28155_ap.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\broadcom\bcm28155_ap) line 80 :  * mmc_init - Initializes mmc
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 5 : board_mmc_init in edb93xx.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\cirrus\edb93xx) line 376 : 	mmc_init(mmc);
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 6 : compute_second_stage_hash in controlcenterd-id.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\gdsys\p1022) line 453 : 	mmc_init(mmc);
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 7 : load_sd_key_program in controlcenterd-id.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\gdsys\p1022) line 827 : 	mmc_init(mmc);
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 8 : get_dfu_alt_boot in exynos5-dt.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\samsung\common) line 365 : 	if (mmc_init(mmc))
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 9 : display_board_info in misc.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\samsung\common) line 227 : 			mmc_init(mmc);
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 10 : get_dfu_alt_boot in odroid.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\board\samsung\odroid) line 84 : 	if (mmc_init(mmc))
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 11 : init_mmc_device in mmc.c (cmd) line 155 : 	if (mmc_init(mmc))
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 12 : do_mmc_setdsr in mmc.c (cmd) line 781 : 		if (mmc_init(mmc))
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 13 : do_mmc_spi in mmc_spi.c (cmd) line 77 : 	mmc_init(mmc);
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 14 : init_mmc_for_env in env_mmc.c (common) line 105 : 	if (mmc_init(mmc))
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 15 : spl_mmc_load_image in spl_mmc.c (common\spl) line 238 : 	err = mmc_init(mmc);
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 16 : dfu_fill_entity_mmc in dfu_mmc.c (drivers\dfu) line 331 : 	if (mmc_init(mmc)) {
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 17 : mmc_spl_load_image in fsl_esdhc_spl.c (drivers\mmc) line 33 : 	if (mmc_init(mmc)) {
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 18 : mmc_get_dev in mmc.c (drivers\mmc) line 1653 : 	if (!mmc || mmc_init(mmc))
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 19 : mmc.c (drivers\mmc) line 1746 : int mmc_init(struct mmc *mmc)
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 20 : sunxi_mmc_has_egon_boot_signature in sunxi_mmc.c (drivers\mmc) line 456 : 	if (mmc_getcd(mmc) && mmc_init(mmc) == 0 &&
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 21 : fm_init_common in fm.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\net\fm) line 397 : 		mmc_init(mmc);
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 22 : cs4340_upload_firmware in cortina.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\net\phy) line 176 : 		mmc_init(mmc);
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 23 : process_flash_mmc in f_fastboot.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\usb\gadget) line 1063 : 				if (mmc && mmc_init(mmc))
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 24 : _fastboot_parts_load_from_ptable in f_fastboot.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\usb\gadget) line 1345 : 		if (mmc && mmc_init(mmc))
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 25 : do_boota in f_fastboot.c (E:\imx6ull\home\hy\asdu-ls\uboot-hy\drivers\usb\gadget) line 1771 : 		if (mmc_init(mmc)) {
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 26 : mmc.h (include) line 420 : int mmc_init(struct mmc *mmc);
+uboot_ls.SearchResults (E:\imx6ull\home\hy\asdu-ls\uboot-hy\SouecrIN\uboot_ls.si4project) line 27 : mmc.h (include) line 454 :  * mmc_init, which would block on polling OCR status and complete the device
