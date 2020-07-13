@@ -7,80 +7,81 @@
 #
 .*
 *.o
-*.o.*
-*.a
-*.s
-*.su
-*.mod.c
-*.i
-*.lst
-*.order
-*.elf
-*.swp
-*.bin
-*.patch
-*.cfgtmp
-
-# host programs on Cygwin
-*.exe
-
-# Build tree
-/build-*
-
+#*.o.*
+#*.a
+#*.s
+#*.su
+#*.mod.c
+#*.i
+#*.lst
+#*.order
+#*.elf
+#*.swp
+#*.bin
+#*.patch
+#*.cfgtmp
 #
-# Top-level generic files
+## host programs on Cygwin
+#*.exe
 #
-/MLO*
-/SPL
-/System.map
-/u-boot*
-/boards.cfg
-
+## Build tree
+#/build-*
 #
-# git files that we don't want to ignore even it they are dot-files
+##
+## Top-level generic files
+##
+#/MLO*
+#/SPL
+#/System.map
+#/u-boot*
+#/boards.cfg
 #
-!.gitignore
-!.mailmap
-
+##
+## git files that we don't want to ignore even it they are dot-files
+##
+#!.gitignore
+#!.mailmap
 #
-# Generated files
+##
+## Generated files
+##
+#/LOG
+#/spl/
+#/tpl/
+#/defconfig
 #
-/LOG
-/spl/
-/tpl/
-/defconfig
-
+##
+## Generated include files
+##
+#/include/config/
+#/include/generated/
 #
-# Generated include files
+## stgit generated dirs
+#patches-*
+#.stgit-edit.txt
 #
-/include/config/
-/include/generated/
-
-# stgit generated dirs
-patches-*
-.stgit-edit.txt
-
-# quilt's files
-patches
-series
-
-# gdb files
-.gdb_history
-
-# cscope files
-cscope.*
-
-# tags files
-/tags
-/ctags
-/etags
-
-# gnu global files
-GPATH
-GRTAGS
-GSYMS
-GTAGS
-
-*.orig
-*~
-\#*#
+## quilt's files
+#patches
+#series
+#
+## gdb files
+#.gdb_history
+#
+## cscope files
+#cscope.*
+#
+## tags files
+#/tags
+#/ctags
+#/etags
+#
+## gnu global files
+#GPATH
+#GRTAGS
+#GSYMS
+#GTAGS
+#
+#*.orig
+#*~
+#\#*#
+#
